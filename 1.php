@@ -1,7 +1,7 @@
 <?php
 $db_host = "localhost";
 $db_user = "root";
-$db_password = "12345";
+$db_password = "1234";
 $db_name = "result";
 
 // Connect to database
