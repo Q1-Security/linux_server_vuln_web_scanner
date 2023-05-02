@@ -7,7 +7,7 @@ class DBC
 
 	public function DBI()
 	{
-		$this->db = new mysqli('localhost', 'root', '1234', 'result');
+		$this->db = new mysqli('localhost', 'root', '', 'test');
 		$this->db->query('SET NAMES UTF8');
 		if(mysqli_connect_errno())
 		{

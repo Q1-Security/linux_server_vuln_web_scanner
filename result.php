@@ -1,6 +1,6 @@
 
 <?php
-require_once("./dbconfig.php");
+require_once("../htdocs/dbconfig.php");
 session_start();
 $id = $_GET['id'];  
 
